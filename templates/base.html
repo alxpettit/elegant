@@ -67,7 +67,7 @@
 
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-left top-menu">
-                            <li><form class="navbar-search" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                            <li><form style="margin-right:30px;" class="navbar-search" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
 
                             <li {% if page_name == 'index' %} class="active"{% endif %}><a href="{{ SITEURL }}">Home</a></li>
                             {% if DISPLAY_PAGES_ON_MENU %}
