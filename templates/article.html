@@ -87,7 +87,6 @@
             {% include '_includes/post_stats.html' %}
             {% if article.date %}
             <h4>Published</h4>
-            {% set day = article.date.strftime('%d')|int %}
             <time itemprop="dateCreated" datetime="{{ article.date.isoformat() }}"> {{ article.date.strftime(DATE_FORMAT) }} </time>
             {% endif %}
             {% include '_includes/last_updated.html' %}
