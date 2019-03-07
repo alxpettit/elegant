@@ -1,4 +1,4 @@
-Thanks to
+Thanks to the Elegant community, who helped make all this nice stuff! ^.^
 =========
 
 **Extra Special Thanks** to [talha131](https://github.com/talha131) for creating this theme and for being the sole maintainer and main developer of Elegant for so many years, and later opening up the development to a community-led effort, enabling the theme and its community to grow.
